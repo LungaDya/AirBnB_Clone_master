@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Lunga Dyantyi",
+      "email": "lunga@123.com",
+      "phone": "0987654321"
+    },
+    {
+      "id": "2",
+      "name": "Vuyo Dyantyi",
+      "email": "vuyo@123.com",
+      "phone": "1234567890"
+    },
+    {
+      "id": "111d",
+      "email": "olivier@gmail.com",
+      "password": "bestPassw0rd"
+    },
+    {
+      "id": "2ba7",
+      "email": "patient@gmail.com",
+      "password": "Passw0rd"
+    },
+    {
+      "id": "cc27",
+      "email": "olivier@gmail.com",
+      "password": "bestPassw0rd"
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": 1,
+      "startDate": "2024-10-30",
+      "endDate": "2024-10-31",
+      "userId": "1",
+      "id": "e13e"
+    }
+  ],
+  "listings": [
+    {
+      "id": 2,
+      "img": "https://media.nomadicmatt.com/2019/airbnb_breakup4.jpg",
+      "title":"Penthouse in London",
+      "description":"Enjoy the amazing sights of London with this stunning penthouse.",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Joe Molefe Street",
+      "city": "Tembisa",
+      "street": "Vincent Mazibuko",
+      "price": "R1899/night",
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+# GET ALL USERS
+GET  http://localhost:4000/users/ 
+###
+
+# GET A SINGLE USER
+GET http://localhost:4000/users?id=1
+###
+
+# REGISTER A  USER
+POST  http://localhost:4000/users
+content-type: application/json
+
+{
+  "email": "olivier@gmail.com",
+  "password": "bestPassw0rd"
+}
+
+###
+# SIGN IN
+POST  http://localhost:4000/login
+content-type: application/json
+
+{
+  "email": "olivier@gmail.com",
+  "password": "bestPassw0rd"
+}
+
+###
+
+# GET ALL BOOKINGS
+http://localhost:4000/bookings/
+###
+
+# GET ALL BOOKINGS FOR A USER
+GET http://localhost:4000/bookings?userId=1
+###
+http://localhost:4000/listings/
+
+###
+# POST http://localhost:4000/posts 
+# content-type: application/json
+
+# {
+#     "title": "airbnb clone",
+#     "author": "lunga"
+# }

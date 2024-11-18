@@ -12,7 +12,7 @@ const SearchResults = ({
   star,
 }) => {
   return (
-    <div className="searchhResult">
+    <div className="searchResult">
       <img src={img} alt="" />
       <FavoriteBorderIcon className="searcResult_heart" />
       <div className="searchResult_info">
@@ -23,7 +23,7 @@ const SearchResults = ({
           <p>{description}</p>
         </div>
         <div className="searchResult_infoBottom">
-          <div className="searchResult_starts">
+          <div className="searchResult_stars">
             <p>
               <strong>{star}</strong>
             </p>

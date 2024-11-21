@@ -20,9 +20,9 @@ const App = () => {
             <SearchPage />
           </Route>
         </Switch>
-        <Router path='/'>
+        <Route path='/'>
          <Modal />
-        </Router>
+        </Route>
         <Footer />
       </Router>
       {/*

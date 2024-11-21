@@ -63,7 +63,7 @@
 
 .login-modal .register-form,
 .login-modal .login-form {
-  margin-top: 20px;
+  margin-top: -20px;
 }
 
 .login-modal .register-form iput,
